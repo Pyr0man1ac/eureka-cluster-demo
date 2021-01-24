@@ -11,7 +11,7 @@ eureka:
     hostname: eureka-client
     instance-id: ${eureka.instance.hostname}-${server.port}
     prefer-ip-address: true
-    # Eureka¿Í»§¶ËÏòEureka·şÎñ¶Ë·¢ËÍĞÄÌøµÄ¼ä¸ôÊ±¼ä µ¥Î»ÎªÃë£¨Ä¬ÈÏ30Ãë£©
+    # Eurekaå®¢æˆ·ç«¯å‘EurekaæœåŠ¡ç«¯å‘é€å¿ƒè·³çš„é—´éš”æ—¶é—´ å•ä½ä¸ºç§’ï¼ˆé»˜è®¤30ç§’ï¼‰
     lease-renewal-interval-in-seconds: 10
-    # Eureka·şÎñ¶Ë³É¹¦ÊÕµ½×îºóÒ»´ÎĞÄÌøºóµÄµÈ´ı³¬Ê±Ê±¼äÉÏÏŞ µ¥Î»ÎªÃë£¨Ä¬ÈÏÊÇ90Ãë£©³¬Ê±½«ÌŞ³ı·şÎñ
+    # EurekaæœåŠ¡ç«¯æˆåŠŸæ”¶åˆ°æœ€åä¸€æ¬¡å¿ƒè·³åç­‰å¾…è¶…æ—¶æ—¶é—´ä¸Šé™ å•ä½ä¸ºç§’ï¼ˆé»˜è®¤90ç§’ï¼‰è¶…æ—¶å°†å‰”é™¤æœåŠ¡
     lease-expiration-duration-in-seconds: 30
